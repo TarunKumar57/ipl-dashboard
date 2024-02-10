@@ -1,0 +1,67 @@
+div {
+  font-family: Bree serif;
+  color: #ffffff;
+}
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+}
+.main-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 50px;
+  margin-right: 9px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin-left: 5%;
+}
+.loader {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+  .loader {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+/* Hex: #1e293b
+Hex: #a4261d
+Hex: #5755a7
+Hex: #d91c1f
+Hex: #f7db00
+Hex: #ffffff33
+Hex: #da237b
+Hex: #13418b
+Hex: #f26d22
+Hex: #4f5db0
+Hex: #0f172a
+
+Border Colors
+
+Hex: #ffffff
+Hex: #475569
+
+Text Colors
+
+Hex: #ffffff
+Hex: #18ed66
+Hex: #e31a1a */

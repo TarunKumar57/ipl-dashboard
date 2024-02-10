@@ -1,0 +1,109 @@
+.latest-match-container {
+  width: 89%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: bree serif;
+  background-color: #0f172a;
+  border-radius: 9px;
+  color: #ffffff;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.latest-match-left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.latest-match-left-text {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.latest-match-img {
+  height: 210px;
+}
+.latest-match-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.latest-match-right-text {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.latest-match-para {
+  font-size: 26px;
+  font-weight: bold;
+}
+.latest-match-para2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+@media (min-width: 600px) {
+  /* .latest-match-mobile-container {
+    display: flex;
+    justify-content: space-around;
+  } */
+  .latest-match-mobile-img-container {
+    display: none;
+  }
+  .latest-match-mobile-img {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .latest-match-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-left: 3%;
+  }
+  .latest-match-mobile-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .latest-match-mobile-img-container {
+    align-self: center;
+  }
+  .latest-match-mobile-img {
+    align-self: center;
+    margin-right: 1px;
+    height: 100px;
+  }
+  .latest-match-right-container {
+    padding-left: 5px;
+  }
+  .latest-match-right-container {
+    align-items: flex-start;
+  }
+  hr {
+    border: 2px solid #475569;
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 0%;
+  }
+  .latest-match-img {
+    display: none;
+  }
+  .latest-match-para {
+    font-size: large;
+  }
+  .latest-match-para2 {
+    font-size: medium;
+  }
+  .latest-match-left-text {
+    font-size: small;
+  }
+  .latest-match-right-text {
+    font-size: small;
+  }
+  h3 {
+    font-size: medium;
+  }
+}

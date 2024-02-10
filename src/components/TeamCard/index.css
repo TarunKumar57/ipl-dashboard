@@ -1,0 +1,28 @@
+li {
+  margin: 11px;
+}
+button {
+  color: #ffffff;
+  font-family: Bree serif;
+}
+.team-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #475569;
+  border: 1px solid #ffffff;
+  border-radius: 9px;
+  width: 300px;
+  cursor: pointer;
+}
+.team-logo {
+  height: 123px;
+  width: 100px;
+}
+.team-name {
+  font-size: 24px;
+  font-weight: 500;
+}
+.link {
+  text-decoration: none;
+}

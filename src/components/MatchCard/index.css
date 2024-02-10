@@ -1,0 +1,34 @@
+.match-card-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f172a;
+  border-radius: 9px;
+  height: 369px;
+  width: 246px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 9px;
+}
+.match-card-img {
+  height: 123px;
+  /* width: 100px; */
+}
+.match-card-heading {
+  font-size: large;
+  width: 80%;
+}
+.match-card-result {
+  font-size: small;
+  width: 80%;
+}
+.match-card-win-lost {
+  font-size: large;
+}
+.win-para {
+  color: #18ed66;
+}
+.lost-para {
+  color: #e31a1a;
+}
